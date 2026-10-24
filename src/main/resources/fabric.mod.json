@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "schematic-live",
+  "version": "${version}",
+  "name": "Schematic Live",
+  "description": "Sendet deine Position live an den Schematic-Loader im Browser (nur lokal, per Code geschützt). Rein clientseitig, läuft auf jedem Server, auch Paper.",
+  "authors": ["Schematic Loader"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.schematiclive.SchematicLiveClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
